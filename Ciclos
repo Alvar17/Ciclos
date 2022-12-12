@@ -1,0 +1,68 @@
+//if
+public class Main {
+    public static void main(String[] args) {
+        int numeroIf = 24;
+
+        if(numeroIf > 0) {
+            System.out.println("Es un numero positivo");
+        }else if(numeroIf < 0) {
+            System.out.println("Es un numero negativo");
+        }else if (numeroIf == 0) {
+            System.out.println("La variable numeroIf es 0");
+        }
+    }
+}
+//While
+public class Main {
+    public static void main(String[] args) {
+      int numeroWhile = 0;
+
+      while(numeroWhile < 3) {
+
+          System.out.println(numeroWhile);
+          numeroWhile++;
+      }
+
+    }
+}
+//DoWhile
+public class Main {
+    public static void main(String[] args) {
+        int numeroWhile = 1;
+
+
+        do {
+            System.out.println(numeroWhile);
+            numeroWhile++;
+        }while (numeroWhile < 2);
+    }
+}
+//For
+public class Main {
+    public static void main(String[] args) {
+        for(int numeroFor = 0; numeroFor <= 3; numeroFor++) {
+            System.out.println(numeroFor);
+        }
+
+    }
+}
+//Switch
+public class Main {
+    public static void main(String[] args) {
+        var estacion = "otoño";
+
+        switch(estacion) {
+            case "verano":
+                System.out.println("estamos en verano");
+                break;
+            case "invierno":
+                System.out.println("Estamos en invierno");
+                break;
+            case "primavera":
+                System.out.println("Estamos en primavera");
+                break;
+            case "otoño":
+                System.out.println("Estamos en otoño");
+        }
+    }
+}
